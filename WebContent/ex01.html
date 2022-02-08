@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- 메타태그 -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- CSS -->
+<link href="/boots/assets/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+<!-- 자바스크립트 -->
+<script type="text/javascript" src="/boots/assets/js/jquery/jquery-1.12.4.js"></script>
+<script type="text/javascript" src="/boots/assets/bootstrap/js/bootstrap.js"></script>
+
+<style>
+	div {
+	border:1px solid #000000;
+	}
+	
+	.container{
+		width: 1500px;
+	}
+</style>
+
+<title>Insert title here</title>
+</head>
+<body>
+
+	<div class="container-fluid"><!-- container-fluid로 하면 가로가 화면에 꽉 채워짐-->
+		<!-- 컨테이너: 부트스트랩은 콘텐츠를 감싸고 그리드 시스템을 만들때 컨테이너 껍데기가 필요합니다. -->
+
+		<div class="row">
+			<!-- 줄바꿈 클래스 -->
+			<div class="col-xs-2">왼쪽메뉴</div>
+			<div class="col-xs-10"><!-- 디브 안에 디브를 생성 가능 -->
+				<div>
+					<div class="col-xs-4">1</div>
+					<div class="col-xs-4">2</div>
+					<div class="col-xs-4">3</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-4">1</div>
+			<div class="col-xs-4">1</div>
+			<div class="col-xs-4">1</div>
+		</div>
+	</div>
+	<!-- 그리드시스템 : 레이아웃을 위한 시스템, 이 클래스를 사용하면 옆으로 배치됨, 가로를 12칸으로 나눠서 사용, 12칸이 채워지면 다음줄 -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-1">.col-md-1</div>
+			<div class="col-md-1">.col-md-1</div>
+			<div class="col-md-1">.col-md-1</div>
+			<div class="col-md-1">.col-md-1</div>
+			<div class="col-md-1">.col-md-1</div>
+			<div class="col-md-1">.col-md-1</div>
+			<div class="col-md-1">.col-md-1</div>
+			<div class="col-md-1">.col-md-1</div>
+			<div class="col-md-1">.col-md-1</div>
+			<div class="col-md-1">.col-md-1</div>
+			<div class="col-md-1">.col-md-1</div>
+			<div class="col-md-1">.col-md-1</div>
+		</div>
+		<div class="row">
+			<div class="col-md-8">.col-md-8</div>
+			<div class="col-md-4">.col-md-4</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4">.col-md-4</div>
+			<div class="col-md-4">.col-md-4</div>
+			<div class="col-md-4">.col-md-4</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">.col-md-6</div>
+			<div class="col-md-6">.col-md-6</div>
+		</div>
+	</div>
+</body>
+
+</html>
